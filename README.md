@@ -1,1 +1,1 @@
-# Topic-wise-coding-questions
+# General-Coding-Questions
