@@ -1,4 +1,4 @@
-def max_profit(prices):
+def maxProfit(prices):
 	max_profit, min_price = 0, float('inf')
 	for price in prices:
 		min_price = min(min_price, price)
@@ -7,4 +7,4 @@ def max_profit(prices):
 	return max_profit
 
 prices = [7,1,5,3,6,4]
-print(max_profit(prices))
+print(maxProfit(prices))
