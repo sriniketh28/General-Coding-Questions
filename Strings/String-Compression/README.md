@@ -8,6 +8,8 @@
 
 #### After you are done modifying the input array, return the new length of the array.
 
+#### You must write an algorithm that uses only constant extra space.
+
 #### Example 1:
 ```
 Input: chars = ["a","a","b","b","c","c","c"]
@@ -32,3 +34,7 @@ Input: chars = ["a","a","a","b","b","a","a"]
 Output: Return 6, and the first 6 characters of the input array should be: ["a","3","b","2","a","2"].
 Explanation: The groups are "aaa", "bb", and "aa". This compresses to "a3b2a2". Note that each group is independent even if two groups have the same character.
 ```
+
+#### Constraints:
+- 1 <= chars.length <= 2000
+- chars[i] is a lower-case English letter, upper-case English letter, digit, or symbol.
