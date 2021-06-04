@@ -6,11 +6,10 @@ def longestConsecutive(nums):
     for num in nums_set:
         if num-1 not in nums_set:
             temp = num + 1
-            while temp in nums:
+            while temp in nums_set:
                 temp += 1
             ans = max(ans, temp-num)
-            
+
     return ans
 
 print(longestConsecutive([100,4,200,1,3,2]))
-
